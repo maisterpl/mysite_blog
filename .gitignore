@@ -1,0 +1,10 @@
+
+# Folders
+venv/
+**/__pycache__
+
+# API key
+*.env
+
+# info
+github.txt
