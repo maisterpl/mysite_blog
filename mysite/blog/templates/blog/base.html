@@ -18,6 +18,10 @@
         <h2>Mój blog</h2>
         <p>To jest mój blog. Dotychczas opublikowałe {% total_posts %} postów.</p>
 
+        <p>
+            <a href="{% url 'blog:post_feed' %}">Subkrybuj kanał RSS</a>
+        </p>
+
         <h3>Najnowsze posty</h3>
         {% show_latest_posts 3 %}
 
